@@ -1,0 +1,36 @@
+{
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-param-reassign": ["error", { "props": false }],
+    "no-use-before-define": ["error", { "functions": false, "classes": true, "variables": false }],
+    "no-nested-ternary": 0,
+    "no-underscore-dangle": 0,
+    "object-shorthand": 0,
+    "consistent-return": 0,
+    "no-plusplus": 0,
+    "func-names": 0,
+    "no-multi-assign": 0,
+    "no-restricted-syntax": 0,
+    "guard-for-in": 0,
+    "no-mixed-operators": 0,
+    "comma-dangle": ["error", {
+      "arrays": "always-multiline",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore",
+    }],
+    "arrow-parens": 0,
+    "no-console": 0,
+    "quote-props": 0,
+  }
+}

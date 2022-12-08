@@ -1,0 +1,10 @@
+.DS_STORE
+node_modules
+dist
+.module-cache
+*.log*
+src/adapt-parser
+
+src/public/TSTAR.woff2
+
+src/public/TSTAR.ttf
